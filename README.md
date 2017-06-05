@@ -16,10 +16,10 @@ npm run executor:prod
 
 # 添加一个定时任务
 1. 放入 ./lib/manager中
-2. 继承BaseManager
+2. 继承 ./lib/util/BaseObject
 3. 实现 run, close
 
 # 添加一个轮训执行者
 1. 放入 ./lib/executor中
-2. 继承BaseExecutor
+2. 继承 ./lib/util/BaseObject
 3. 实现 run, close`
