@@ -6,8 +6,8 @@
   "scripts": {
     "manager": "env DEBUG='jungle:*' node manager.js",
     "manager:prod": "NODE_ENV=production node manager.js",
-    "executer": "env DEBUG='jungle:*' node executer.js",
-    "executer:prod": "NODE_ENV=production node executer.js"
+    "executor": "env DEBUG='jungle:*' node executor.js",
+    "executer:prod": "NODE_ENV=production node executor.js"
   },
   "author": "Edward32tnt",
   "license": "ISC",
