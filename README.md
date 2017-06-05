@@ -10,7 +10,7 @@ use
 
     production :
 
-    npm run manager:production
+    npm run manager:prod
 
-    npm run executor:production
+    npm run executor:prod
 ```

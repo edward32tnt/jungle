@@ -4,9 +4,9 @@
   "description": "分布式计划任务",
   "main": "index.js",
   "scripts": {
-    "manager": "node manager.js",
+    "manager": "env DEBUG='jungle:*' node manager.js",
     "manager:prod": "NODE_ENV=production node manager.js",
-    "executer": "node executer.js",
+    "executer": "env DEBUG='jungle:*' node executer.js",
     "executer:prod": "NODE_ENV=production node executer.js"
   },
   "author": "Edward32tnt",
