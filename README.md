@@ -4,7 +4,7 @@
 - 部署代码到多台机器中，使用mq 服务可以实现分布式执行器
 
 # 运行
-``javascript
+```javascript
 启动manager
 npm run manager
 npm run manager:prod
@@ -12,7 +12,7 @@ npm run manager:prod
 启动executor
 npm run executor
 npm run executor:prod
-``
+```
 
 # 添加一个定时任务
 1. 放入 ./lib/manager中
